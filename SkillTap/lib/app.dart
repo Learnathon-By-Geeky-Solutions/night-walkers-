@@ -5,6 +5,10 @@ class SkillTap extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp();
+    return MaterialApp(
+      themeMode: ThemeMode.system,
+      theme: ThemeData(),
+      darkTheme: ThemeData(),
+    );
   }
 }
