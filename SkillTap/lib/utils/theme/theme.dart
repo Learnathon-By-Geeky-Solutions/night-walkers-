@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:skillset/utils/theme/custom_themes/app_bar_theme.dart';
-import 'package:skillset/utils/theme/custom_themes/bottom_sheet.dart';
-import 'package:skillset/utils/theme/custom_themes/checkbox_theme.dart';
-import 'package:skillset/utils/theme/custom_themes/elevated_button_theme.dart';
-import 'package:skillset/utils/theme/custom_themes/outlined_button._theme.dart';
-import 'package:skillset/utils/theme/custom_themes/text_field._theme.dart';
-import 'package:skillset/utils/theme/custom_themes/text_theme.dart';
+import 'package:skilltap/utils/theme/custom_themes/app_bar_theme.dart';
+import 'package:skilltap/utils/theme/custom_themes/bottom_sheet.dart';
+import 'package:skilltap/utils/theme/custom_themes/checkbox_theme.dart';
+import 'package:skilltap/utils/theme/custom_themes/elevated_button_theme.dart';
+import 'package:skilltap/utils/theme/custom_themes/outlined_button._theme.dart';
+import 'package:skilltap/utils/theme/custom_themes/text_field._theme.dart';
+import 'package:skilltap/utils/theme/custom_themes/text_theme.dart';
 
 class SkillTapTheme {
   SkillTapTheme._();
