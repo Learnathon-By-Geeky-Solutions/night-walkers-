@@ -5,62 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9af2c50f-02bd-4141-8935-0460a0d4996e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/common/routes/auth_routes.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/common/styles/spacing_styles.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/common/widgets/auth/auth_header.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/common/widgets/auth/social_buttons.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/common/widgets/custom_back_button.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/common/widgets/divider_with_text.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/features/authentication/controller/providers/onboarding_controller.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/features/authentication/controller/providers/onboarding_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/features/authentication/screens/login_screen/login_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/features/authentication/screens/login_screen/widgets/signin_footer.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/features/authentication/screens/login_screen/widgets/signin_form.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/features/authentication/screens/onBoarding_screens/widgets/onboarding_auth_buttons.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/features/authentication/screens/onBoarding_screens/widgets/onboarding_navigation.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/features/authentication/screens/onBoarding_screens/widgets/onboarding_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillTap/lib/features/authentication/screens/signup_screen/signup_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-MediumItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-SemiBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/fonts/Poppins-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/logos/skilltap_splash_logo_dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/logos/skilltap_splash_logo_dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/assets/logos/skilltap_splash_logo_light.png" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/assets/logos/skilltap_splash_logo_light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/lib/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/lib/utils/constants/colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/lib/utils/constants/colors.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/lib/utils/constants/image_strings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/lib/utils/constants/image_strings.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/lib/utils/constants/text_strings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/lib/utils/constants/text_strings.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/lib/utils/helpers/helpers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/lib/utils/helpers/helpers.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/lib/utils/theme/custom_themes/elevated_button_theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/lib/utils/theme/custom_themes/elevated_button_theme.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/lib/utils/theme/custom_themes/text_field._theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/lib/utils/theme/custom_themes/text_field._theme.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/lib/utils/theme/custom_themes/text_theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/lib/utils/theme/custom_themes/text_theme.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/lib/utils/theme/theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/lib/utils/theme/theme.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/test/widget_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkillTap/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/SkillTap/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
