@@ -3,10 +3,10 @@ import 'package:logger/logger.dart';
 class SLoggerHelper {
   static final Logger _logger = Logger(
     printer: PrettyPrinter(),
+    // Customize the log levels based on your needs
     level: Level.debug,
   );
 
-  // Logger methods
   static void debug(String message) {
     _logger.d(message);
   }
@@ -20,6 +20,6 @@ class SLoggerHelper {
   }
 
   static void error(String message, [dynamic error]) {
-    _logger.e(message, error: error, stackTrace: StackTrace.current);
+    _logger.e(message, error: error,  stackTrace: StackTrace.current);
   }
 }
