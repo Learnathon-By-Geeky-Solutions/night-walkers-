@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:skilltap/common/auth/auth_header.dart';
+import 'package:skilltap/common/auth/social_buttons.dart';
 import 'package:skilltap/common/styles/spacing_styles.dart';
-import 'package:skilltap/common/widgets/auth/auth_header.dart';
-import 'package:skilltap/common/widgets/auth/social_buttons.dart';
 import 'package:skilltap/features/authentication/screens/login_screen/widgets/signin_footer.dart';
 import 'package:skilltap/features/authentication/screens/login_screen/widgets/signin_form.dart';
 import 'package:skilltap/utils/constants/sizes.dart';

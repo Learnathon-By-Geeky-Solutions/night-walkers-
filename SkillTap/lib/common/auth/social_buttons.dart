@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skilltap/common/widgets/divider_with_text.dart';
+import 'package:skilltap/common/divider_with_text.dart';
 import 'package:skilltap/utils/constants/image_strings.dart';
 import 'package:skilltap/utils/constants/sizes.dart';
 import 'package:skilltap/utils/helpers/helpers.dart';

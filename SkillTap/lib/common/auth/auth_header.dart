@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skilltap/common/widgets/custom_back_button.dart';
+import 'package:skilltap/common/custom_back_button.dart';
 import 'package:skilltap/utils/constants/colors.dart';
 import 'package:skilltap/utils/constants/image_strings.dart';
 import 'package:skilltap/utils/constants/sizes.dart';
