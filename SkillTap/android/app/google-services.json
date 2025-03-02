@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "121072315639",
+    "project_id": "skilltap-6315c",
+    "storage_bucket": "skilltap-6315c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121072315639:android:df768d3d8425af40bd77f2",
+        "android_client_info": {
+          "package_name": "com.example.skillset"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3-4PKo8gtruFDpqtvgfpwbKTJnXhRiO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,31 +1,48 @@
 import 'package:flutter/material.dart';
+import 'package:skilltap/utils/constants/sizes.dart';
 
-/// -- Light & Dark Elevated Button Themes
 class SElevatedButtonTheme {
   SElevatedButtonTheme._(); // To prevent instantiation
 
-  /// Shared button style function to avoid duplication
-  static ButtonStyle _buttonStyle(Color backgroundColor) {
+  /// Shared button style function that takes both background and foreground colors
+  static ButtonStyle _buttonStyle({
+    required Color backgroundColor,
+    required Color foregroundColor,
+    required Color borderColor,
+  }) {
     return ElevatedButton.styleFrom(
       elevation: 0,
-      foregroundColor: Colors.white, // Text color
-      backgroundColor: backgroundColor, // Button background color
+      foregroundColor: foregroundColor,     // Text/icon color
+      backgroundColor: backgroundColor,      // Button background color
       disabledForegroundColor: Colors.grey, // Disabled text color
       disabledBackgroundColor: Colors.grey, // Disabled button color
-      side: BorderSide(color: backgroundColor), // Border color
-      padding: const EdgeInsets.symmetric(vertical: 18),
-      textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      side: BorderSide(color: borderColor), // Border color
+      padding: const EdgeInsets.symmetric(vertical: SSizes.md), // Using your size constants
+      textStyle: const TextStyle(
+        fontSize: SSizes.fontSizeMd,
+        fontWeight: FontWeight.w600,
+      ),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(SSizes.buttonRadius),
+      ),
     );
   }
 
-  /// -- Light Theme
+  /// Light Theme - Dark background with white text
   static final lightElevatedButtonTheme = ElevatedButtonThemeData(
-    style: _buttonStyle(Colors.blue),
+    style: _buttonStyle(
+      backgroundColor: Colors.black,    // Dark background
+      foregroundColor: Colors.white,    // White text
+      borderColor: Colors.black,        // Border matches background
+    ),
   );
 
-  /// -- Dark Theme
+  /// Dark Theme - White background with dark text
   static final darkElevatedButtonTheme = ElevatedButtonThemeData(
-    style: _buttonStyle(Colors.blue),
+    style: _buttonStyle(
+      backgroundColor: Colors.white,    // White background
+      foregroundColor: Colors.black,    // Dark text
+      borderColor: Colors.white,        // Border matches background
+    ),
   );
 }
